@@ -23,7 +23,7 @@ while(inputCount!=0):
         else:
             img = cv2.imread("Default.jpg")
         image_resizing = cv2.resize(img,(500,500)) #is resizing image
-        isdisplayingimage(image_resizing)          #calling displaying fuction
+        isdisplayingimage(image_resizing)          #calling display fuction
         isshowingproperties(img)                   #calling properties function
 
 
